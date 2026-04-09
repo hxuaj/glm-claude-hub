@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# glm-claude-hub installer
+# glm-claude-hud installer
 # Copies the wrapper script, configures settings.json and claude-hud plugin
 
 set -euo pipefail
@@ -10,7 +10,7 @@ WRAPPER_DEST="$HOME/.claude/scripts/glm-wrapper.ts"
 SETTINGS_FILE="$HOME/.claude/settings.json"
 HUD_CONFIG_FILE="$HOME/.claude/plugins/claude-hud/config.json"
 
-echo "==> glm-claude-hub installer"
+echo "==> glm-claude-hud installer"
 echo ""
 
 # ── Check prerequisites ──────────────────────────────────────────────

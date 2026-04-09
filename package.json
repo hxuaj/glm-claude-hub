@@ -1,5 +1,5 @@
 {
-  "name": "glm-claude-hub",
+  "name": "glm-claude-hud",
   "version": "1.0.0",
   "description": "Display GLM (Zhipu AI) model usage quota in Claude Code statusline via claude-hud",
   "scripts": {
@@ -16,6 +16,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hxuaj/glm-claude-hub"
+    "url": "https://github.com/hxuaj/glm-claude-hud"
   }
 }

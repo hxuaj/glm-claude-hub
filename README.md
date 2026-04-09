@@ -1,4 +1,4 @@
-# glm-claude-hub
+# glm-claude-hud
 
 Display GLM (Zhipu AI) model usage quota in [Claude Code](https://docs.anthropic.com/en/docs/claude-code) statusline via [claude-hud](https://github.com/jarrodwatts/claude-hud).
 
@@ -9,7 +9,7 @@ When using GLM models through Zhipu AI's Anthropic-compatible API, Claude Code d
 ![GLM usage in Claude Code statusline](assets/preview.jpg)
 
 ```
-[glm-5.1] │ glm-claude-hub git:(master)
+[glm-5.1] │ glm-claude-hud git:(master)
 Context █░░░░░ 18% │ Usage ░░░░░░ 3% (1h 26m) | Weekly ░░░░░░ 1% (6d 20h)
 ```
 
@@ -61,8 +61,8 @@ Follow the [claude-hud installation guide](https://github.com/jarrodwatts/claude
 #### Step 2 — Add GLM configuration
 
 ```bash
-git clone https://github.com/hxuaj/glm-claude-hub.git
-cd glm-claude-hub
+git clone https://github.com/hxuaj/glm-claude-hud.git
+cd glm-claude-hud
 bash install.sh
 ```
 
