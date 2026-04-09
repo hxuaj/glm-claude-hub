@@ -49,10 +49,25 @@ Context █░░░░░ 18% │ Usage ░░░░░░ 3% (1h 26m) | Weekly
 ### Quick Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/glm-claude-hub.git
+git clone https://github.com/hxuaj/glm-claude-hub.git
 cd glm-claude-hub
 bash install.sh
 ```
+
+The installer will:
+
+1. Copy the wrapper script to `~/.claude/scripts/`
+2. Configure `~/.claude/settings.json` (statusline command + GLM env vars)
+3. Configure claude-hud plugin (`sevenDayThreshold: 0`, usage bar, etc.)
+4. Prompt for your Zhipu AI API key
+
+After the installer finishes, install the claude-hud plugin in Claude Code:
+
+```
+/install-plugin jarrodwatts/claude-hud
+```
+
+Then restart Claude Code.
 
 ### Manual Installation
 
