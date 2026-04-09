@@ -6,6 +6,8 @@ When using GLM models through Zhipu AI's Anthropic-compatible API, Claude Code d
 
 ## Preview
 
+![GLM usage in Claude Code statusline](assets/preview.jpg)
+
 ```
 [glm-5.1] │ glm-claude-hub git:(master)
 Context █░░░░░ 18% │ Usage ░░░░░░ 3% (1h 26m) | Weekly ░░░░░░ 1% (6d 20h)
